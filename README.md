@@ -1,57 +1,14 @@
-# essentials
+# Это тестовое задание с Погодой и настройкой
 
-## Project setup
+## Использованные библиотеки
 
-```
-# yarn
-yarn
+1) Vuetify - для ускорения работы со стилями и компонентами
+2) Pinia - в целом тоже самое что и Vuex но без использовния мутации, всё в Action, так что решил использоватиь её
+3) Axios - удобная библиотека для работы с запросами (GET, PUT, POST)
+4) SASS - процессор стилей, класный, удобный, быстрый.
 
-# npm
-npm install
+## Так быстро потому что был готовый проек на это API оставалось только написать README
 
-# pnpm
-pnpm install
-```
+### Запуск проекта
 
-### Compiles and hot-reloads for development
-
-```
-# yarn
-yarn dev
-
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-```
-
-### Compiles and minifies for production
-
-```
-# yarn
-yarn build
-
-# npm
-npm run build
-
-# pnpm
-pnpm build
-```
-
-### Lints and fixes files
-
-```
-# yarn
-yarn lint
-
-# npm
-npm run lint
-
-# pnpm
-pnpm lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
+В файле [package.json](/package.json) в разделе scripts всё пропасанно
